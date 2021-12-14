@@ -1,0 +1,54 @@
+<html>
+<head>
+
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="Styles.css">
+     <title>Contact Me!</title>
+     <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="C:\Users\Lussette\Desktop\trying\Lussette Castillo-logos_transparent.png"/>
+</head>
+
+<body>
+    
+
+<div class="container">  
+    <form id="contact" action="" method="post">
+      <h3> Contact form</h3>
+      
+      <fieldset>
+        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Phone Number (required)" type="tel" tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Web Site (required)" type="url" tabindex="4" required>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Leave your message here...." tabindex="5" required></textarea>
+      </fieldset>
+      <fieldset>
+        <button onClick = "Submit()" >Submit</button>
+
+      </fieldset>
+      
+    </form>
+  </div>
+
+
+  <script type="text/javascript">
+
+      function Submit(){
+
+        var name = document.getElementById("contact").value;
+  	
+      }
+  </script>
+      
+  
+     </body>
+
+  </html>
